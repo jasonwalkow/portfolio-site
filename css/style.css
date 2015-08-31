@@ -1,32 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-overflow-scrolling: touch;
+  -webkit-font-smoothing: antialiased;
+}
+
 body {
 	font-family: "Poppins", sans-serif;
+	font-color: #fff;
+	background-color: #313131;
+	background-image: url("../img/jasondw.png");
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-attachment: fixed;
+	background-size: 70%;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+	color: yellow;
 }
 
 h1 {
+	padding-top: 2rem;
 	text-transform: uppercase;
+	font-size: 2.2rem;
 	font-weight: 600;
 	letter-spacing: 0.2rem;
 	text-align: center;
 }
 
-.nav {
-	margin-left: auto;
-	margin-right: auto;
+.top-links {
+	text-align: center;
+	margin-top: -0.5rem;
 }
 
-.nav li {
+.top-links li {
+	text-align: center;
+	margin-top: 0rem;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1rem;
 	display: inline-block;
 	text-transform: uppercase;
+	font-size: 1.2rem;
 	font-weight: 600;
 	letter-spacing: 0.1rem;
 }
 
 .social-icons {
+	margin-top: -1.5rem;
 	text-align: center;
 }
 
 .social-icons li {
 	display: inline-block;
-	padding: 1rem;
+	padding: 1rem 1.5rem 1rem 1.5rem;
 	font-size: 2rem;
 }
+
+.hello-text {
+	text-align: center;
+	font-size: 2rem;
+	font-style: italic;
+	color: #fff;
+	font-weight: 300;
+	padding: 2rem;
+}
+
+.intro {
+	text-align: center;
+}
+
+.learn-more {
+	color: #fff;
+	font-weight: 600;
+	background-color: transparent;
+	border: 2px solid #fff;
+	border-radius: 2px;
+	padding: 1rem;
+}
+
