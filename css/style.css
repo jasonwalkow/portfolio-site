@@ -8,13 +8,24 @@
 
 body {
 	font-family: "Poppins", sans-serif;
-	font-color: #fff;
+	color: #fff;
 	background-color: #313131;
 	background-image: url("../img/jasondw.png");
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	background-attachment: fixed;
-	background-size: 15rem;
+	background-size: 20rem;
+}
+
+.about,
+.work,
+.contact {
+	background-color: #BCBCBC;
+	background-image: url("../img/jasondwlight.png");
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-attachment: fixed;
+	background-size: 20rem;
 }
 
 a {
@@ -24,6 +35,10 @@ a {
 a:hover {
 	text-decoration: none;
 	color: #72C7B5;
+}
+
+button:focus {
+	outline: none;
 }
 
 button:hover {
