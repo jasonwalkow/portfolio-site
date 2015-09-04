@@ -20,7 +20,7 @@ body {
 .about,
 .work,
 .contact {
-	background-color: #BCBCBC;
+	background-color: #313131;
 	background-image: url("../img/jasondwlight.png");
 	background-repeat: no-repeat;
 	background-position: bottom center;
@@ -85,7 +85,7 @@ h1 {
 
 .social-icons li {
 	display: inline-block;
-	padding: 1rem 1.5rem 1rem 1.5rem;
+	padding: 1rem 1.5rem;
 	font-size: 2rem;
 }
 
@@ -114,9 +114,101 @@ h1 {
 	background-color: transparent;
 	border: 2px solid #fff;
 	border-radius: 2px;
-	padding: 1.25rem 2rem 1.25rem 2rem;
+	padding: 1.25rem 2rem;
 }
 
+/*========================================
+			ABOUT STYLES
+========================================*/
+
+/*========================================
+			WORK STYLES
+========================================*/
+.work-icon-set {
+	margin: 1rem 20rem;
+}
+
+.work-icon {
+	padding: 2rem;
+}
+
+.work-icon:hover {
+	opacity: 0.8;
+}
+
+/*========================================
+			CONTACT STYLES
+========================================*/
+
+form {
+	margin: 1rem 10rem 1rem 10rem;
+}
+
+.form-label {
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-bottom: 0;
+	margin-top: 2rem;
+}
+
+form span {
+	color: #72C7B5;
+}
+
+input[type="text"],
+input[type="email"] {
+	width: 80%;
+	font-family: 'Karla', sans-serif;
+	color: rgba(95,156,226,0.8);
+	font-size: 2rem;
+	border-radius: 3px;
+	padding: 10px 10px 10px 35px;
+  	border: solid 5px #c9c9c9;
+  	transition: border 0.3s;
+  	background-image: url('http://i47.tinypic.com/r02vbq.png');
+	background-repeat: no-repeat;
+	background-position: -5% 50%;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+	font-family: 'Karla', sans-serif;
+	font-size: 2rem;
+	color: #505050;
+  	border: solid 5px #969696;
+}
+
+input[type="submit"] {
+	font-family: 'Karla', sans-serif;
+	letter-spacing: 0.3rem;
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 1rem;
+	width: 20%;
+	padding: 2rem 1rem 1.5rem 1rem;
+  	background-color: #72C7B5;
+  	border: none;
+  	border-radius: 5px;
+  	box-shadow: 0 7px #32947F;
+  	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  	opacity: 0.9;
+  	cursor: pointer;
+}
+
+input[type="submit"]:active {
+  	background-color: #72C7B5;
+  	box-shadow: 0 2px #72C7B5;
+  	transform: translateY(7px);
+}
+
+.message-box {
+	height: 20rem;
+}
 
 
 /*==========  Mobile First - Media Queries  ==========*/
