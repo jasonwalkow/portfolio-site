@@ -117,6 +117,15 @@ h1 {
 	padding: 1.25rem 2rem;
 }
 
+.sub-page-header {
+	text-align: center;
+	font-size: 2rem;
+	font-style: italic;
+	color: #fff;
+	font-weight: 300;
+	padding: 3rem;
+}
+
 /*========================================
 			ABOUT STYLES
 ========================================*/
@@ -146,7 +155,7 @@ h1 {
 ========================================*/
 
 form {
-	margin: 1rem 10rem 1rem 10rem;
+	margin: 1rem;
 }
 
 .form-label {
@@ -162,13 +171,13 @@ form span {
 
 input[type="text"],
 input[type="email"] {
-	width: 80%;
+	width: 100%;
 	font-family: 'Karla', sans-serif;
 	color: rgba(95,156,226,0.8);
 	font-size: 2rem;
 	border-radius: 3px;
 	padding: 10px 10px 10px 35px;
-  	border: solid 5px #c9c9c9;
+  	border: solid 3px #c9c9c9;
   	transition: border 0.3s;
   	background-image: url('http://i47.tinypic.com/r02vbq.png');
 	background-repeat: no-repeat;
@@ -180,7 +189,7 @@ input[type="email"]:focus {
 	font-family: 'Karla', sans-serif;
 	font-size: 2rem;
 	color: #505050;
-  	border: solid 5px #969696;
+  	border: solid 4px #969696;
 }
 
 input[type="submit"] {
@@ -190,8 +199,8 @@ input[type="submit"] {
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #fff;
-	margin: 1rem;
-	width: 20%;
+	margin-top: 3rem;
+	width: 100%;
 	padding: 2rem 1rem 1.5rem 1rem;
   	background-color: #72C7B5;
   	border: none;
@@ -212,7 +221,7 @@ input[type="submit"]:active {
 }
 
 .message-box {
-	height: 20rem;
+	height: 15rem;
 }
 
 
@@ -251,6 +260,9 @@ input[type="submit"]:active {
 	.social-icons,
 	.top-links {
 		margin-bottom: 3rem;
+	}
+	.sub-page-header {
+		font-size: 2.5rem;
 	}
 }
 
