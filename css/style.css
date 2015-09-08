@@ -124,8 +124,13 @@ h1 {
 /*========================================
 			WORK STYLES
 ========================================*/
+.work-body {
+	margin-left: 5rem;
+	margin-right: 5rem;
+}
+
 .work-icon-set {
-	margin: 1rem 20rem;
+	margin: 1rem 2rem 2rem 2rem;
 }
 
 .work-icon {
