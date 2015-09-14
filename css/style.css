@@ -123,19 +123,60 @@ h1 {
 	font-style: italic;
 	color: #fff;
 	font-weight: 300;
-	padding: 3rem;
+	padding: 0rem 3rem;
 }
 
 /*========================================
 			ABOUT STYLES
 ========================================*/
+.bio {
+	font-size: 1.5rem;
+	margin: 2rem;
+	padding: 2rem 2rem;
+	background-color: rgba(0,0,0,0.3);
+	border-radius: 8px;
+}
+
+.skills {
+	margin: 2rem;
+	padding: 0.3rem 3rem;
+	background-color: rgba(0,0,0,0.3);
+	border-radius: 8px;
+}
+
+.skills-title {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.75rem;
+	letter-spacing: 0.1rem;
+	text-align: center;
+}
+
+.dots {
+	font-size: 1rem;
+	padding-left: 1rem;
+	opacity: 0.6;
+	float: right;
+}
+
+.dots i {
+	padding: 0.2rem;
+}
+
+.skill {
+	font-weight: 600;
+}
+
+.tools {
+	text-align: center;
+}
 
 /*========================================
 			WORK STYLES
 ========================================*/
 .work-body {
-	margin-left: 5rem;
-	margin-right: 5rem;
+	margin-left: 3rem;
+	margin-right: 3rem;
 }
 
 .work-icon-set {
@@ -176,12 +217,23 @@ input[type="email"] {
 	color: rgba(95,156,226,0.8);
 	font-size: 2rem;
 	border-radius: 3px;
-	padding: 10px 10px 10px 35px;
+	padding: 10px 10px 10px 45px;
   	border: solid 3px #c9c9c9;
   	transition: border 0.3s;
-  	background-image: url('http://i47.tinypic.com/r02vbq.png');
+}
+
+input[type="text"] {
+	background-image: url("../img/name.png");
 	background-repeat: no-repeat;
-	background-position: -5% 50%;
+	background-position: 2% 50%;
+	background-size: 2rem;
+}
+
+input[type="email"] {
+	background-image: url("../img/email.png");
+	background-repeat: no-repeat;
+	background-position: 2% 50%;
+	background-size: 2rem;
 }
 
 input[type="text"]:focus,
@@ -222,6 +274,19 @@ input[type="submit"]:active {
 
 .message-box {
 	height: 15rem;
+	width: 100%;
+	font-family: 'Karla', sans-serif;
+	color: rgba(95,156,226,0.8);
+	font-size: 2rem;
+	border-radius: 3px;
+	padding: 5px 10px 10px 45px;
+  	border: solid 3px #c9c9c9;
+  	transition: border 0.3s;
+  	background-image: url("../img/message.png");
+	background-repeat: no-repeat;
+	background-position: 2% 5%;
+	background-size: 2rem;
+	resize: none;
 }
 
 
@@ -264,6 +329,10 @@ input[type="submit"]:active {
 	.sub-page-header {
 		font-size: 2.5rem;
 	}
+	.contact-form {
+		margin-left: 10rem;
+		margin-right: 10rem;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -272,6 +341,10 @@ input[type="submit"]:active {
 	.social-icons,
 	.top-links {
 		margin-bottom: 5rem;
+	}
+	.contact-form {
+		margin-left: 15rem;
+		margin-right: 15rem;
 	}
 }
 
@@ -290,5 +363,9 @@ input[type="submit"]:active {
 	.hello-text {
 		padding-left: 15rem;
 		padding-right: 15rem;
+	}
+	.contact-form {
+		margin-left: 22rem;
+		margin-right: 25rem;
 	}
 }
