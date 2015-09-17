@@ -6,26 +6,24 @@
   -webkit-font-smoothing: antialiased;
 }
 
-body {
+body,
+.about,
+.work,
+.contact {
 	font-family: "Poppins", sans-serif;
 	color: #fff;
 	background-color: #313131;
-	background-image: url("../img/jasondw.png");
+	background-image: url("../img/jasondwsmall.png");
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	background-attachment: fixed;
-	background-size: 20rem;
+	background-size: 50rem;
 }
 
 .about,
 .work,
 .contact {
-	background-color: #313131;
-	background-image: url("../img/jasondwlight.png");
-	background-repeat: no-repeat;
-	background-position: bottom center;
-	background-attachment: fixed;
-	background-size: 20rem;
+	background-image: url("../img/jasondwsmalllight.png");
 }
 
 a {
@@ -109,6 +107,7 @@ h1 {
 }
 
 .learn-more {
+	display: none;
 	color: #fff;
 	font-size: 1.5rem;
 	font-weight: 600;
@@ -310,6 +309,22 @@ textarea:focus {
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+	body {
+		background-image: url("../img/jasondwbig.png");
+		background-repeat: no-repeat;
+		background-position: bottom center;
+		background-attachment: fixed;
+		background-size: 120rem;
+	}
+	.about,
+	.work,
+	.contact {
+		background-image: url("../img/jasondwbiglight.png");
+		background-size: 120rem;
+	}
+	.learn-more {
+		display: inline-block;
+	}
 	.top-links {
 		text-align: left;
 		margin-top: 3.25rem;
@@ -366,6 +381,14 @@ textarea:focus {
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+	body {
+		background-size: 130rem;
+	}
+	.about,
+	.work,
+	.contact {
+		background-size: 130rem;
+	}
 	h1 {
 		margin-left: -3rem;
 		margin-right: -3rem;
