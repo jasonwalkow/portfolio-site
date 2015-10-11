@@ -4,3 +4,7 @@ require("../css/animate.css");
 require("../css/style.css");
 require("bootstrap/js/button");
 console.log("It's alive");
+
+$('.buttons-list a').each( function() {
+  $(this).attr('target', '_BLANK');
+ });
