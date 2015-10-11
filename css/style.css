@@ -179,18 +179,60 @@ h1 {
 	margin-right: 3rem;
 }
 
-.work-icon-set {
-	margin: 1rem 2rem 2rem 2rem;
+.portfolio_area {
+  background: none;
+  color: #fff;
+  display: inline;
+  float: left;
+  padding-top: 30px;
+  width: 100%;
+}
+.portfolio_area h2{
+	color: #fff;
+}
+.portfolio_gallery{
+	float: left;
+	display: inline;
+	width: 100%;
+}
+.wagwep-container ul#portfolio-filter {
+  border-bottom: medium none;
+  margin-top: 25px;
+  text-align: center;
+}
+.wagwep-container ul#portfolio-filter a {
+  background: none repeat scroll 0 center rgba(0, 0, 0, 0);
+  border: 1px solid #fff;
+  border-radius: 0;
+  color: #fff;
+  font-weight: bold;
+  margin: 0 10px 10px 0;
+  padding: 6px 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.wagwep-container ul#portfolio-filter a:hover{
+	color: #fff;	
 }
 
-.work-icon {
-	padding: 2rem;
-	border-radius: 5px;
+.og-grid li a figure span {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.9);
+  display: block;
+  font-weight: normal;
+  margin: 40% 20px 20px;
+  padding: 10px 0;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+}
+.wagwep-container ul#portfolio-filter li {
+  display: inline-block;
+  float: none;  
 }
 
-.work-icon:hover {
-	opacity: 0.9;
-}
 
 /*========================================
 			CONTACT STYLES
